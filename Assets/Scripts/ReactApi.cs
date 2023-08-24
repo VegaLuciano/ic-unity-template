@@ -53,6 +53,7 @@ public class ReactApi : MonoBehaviour
         PlugUtils.CheckConnection( GetCallbackIndex(cb) );
     }
 
+
     public void GetPlugNfts(System.Action<string> cb)
     {
         PlugUtils.GetPlugNfts( GetCallbackIndex(cb) );
